@@ -1163,6 +1163,11 @@ array-filter@~0.0.0:
   resolved "http://r.cnpmjs.org/array-filter/download/array-filter-0.0.1.tgz#7da8cf2e26628ed732803581fd21f67cacd2eeec"
   integrity sha1-fajPLiZijtcygDWB/SH2fKzS7uw=
 
+array-find-index@^1.0.2:
+  version "1.0.2"
+  resolved "http://r.cnpmjs.org/array-find-index/download/array-find-index-1.0.2.tgz#df010aa1287e164bbda6f9723b0a96a1ec4187a1"
+  integrity sha1-3wEKoSh+Fku9pvlyOwqWoexBh6E=
+
 array-flatten@1.1.1:
   version "1.1.1"
   resolved "http://r.cnpmjs.org/array-flatten/download/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
@@ -1296,6 +1301,14 @@ aws4@^1.8.0:
   version "1.8.0"
   resolved "http://r.cnpmjs.org/aws4/download/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha1-8OAD2cqef1nHpQiUXXsu+aBKVC8=
+
+axios@^0.18.0:
+  version "0.18.0"
+  resolved "http://r.cnpmjs.org/axios/download/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
+  integrity sha1-MtU+SFHv3AoRmTts0AB4nXDAUQI=
+  dependencies:
+    follow-redirects "^1.3.0"
+    is-buffer "^1.1.5"
 
 babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -3346,7 +3359,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.3.0:
   version "1.5.10"
   resolved "http://r.cnpmjs.org/follow-redirects/download/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
   integrity sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
@@ -4815,6 +4828,15 @@ minizlib@^1.1.1:
   dependencies:
     minipass "^2.2.1"
 
+mint-ui@^2.2.13:
+  version "2.2.13"
+  resolved "http://r.cnpmjs.org/mint-ui/download/mint-ui-2.2.13.tgz#856a2cba9608c6ecf21f0e521ce89ed8ddfe33d3"
+  integrity sha1-hWosupYIxuzyHw5SHOie2N3+M9M=
+  dependencies:
+    array-find-index "^1.0.2"
+    raf.js "0.0.4"
+    vue-lazyload "^1.0.1"
+
 mississippi@^2.0.0:
   version "2.0.0"
   resolved "http://r.cnpmjs.org/mississippi/download/mississippi-2.0.0.tgz#3442a508fafc28500486feea99409676e4ee5a6f"
@@ -6022,6 +6044,11 @@ querystringify@^2.0.0:
   version "2.1.0"
   resolved "http://r.cnpmjs.org/querystringify/download/querystringify-2.1.0.tgz#7ded8dfbf7879dcc60d0a644ac6754b283ad17ef"
   integrity sha1-fe2N+/eHncxg0KZErGdUsoOtF+8=
+
+raf.js@0.0.4:
+  version "0.0.4"
+  resolved "http://r.cnpmjs.org/raf.js/download/raf.js-0.0.4.tgz#f15af445d241b27fa7131a57450b67ef9c402fec"
+  integrity sha1-8Vr0RdJBsn+nExpXRQtn75xAL+w=
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.0.6"
@@ -7448,6 +7475,11 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.1"
   resolved "http://r.cnpmjs.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.1.tgz#b2d3d95402a811602380783ea4f566eb875569a2"
   integrity sha1-stPZVAKoEWAjgHg+pPVm64dVaaI=
+
+vue-lazyload@^1.0.1:
+  version "1.2.6"
+  resolved "http://r.cnpmjs.org/vue-lazyload/download/vue-lazyload-1.2.6.tgz#baa04c172d52a812608eb12c7a6bfb14f5c91079"
+  integrity sha1-uqBMFy1SqBJgjrEsemv7FPXJEHk=
 
 vue-loader@^15.4.2:
   version "15.4.2"
